@@ -219,7 +219,7 @@
 
 //* RISPOSTA ESERCIZIO 12
 // let isMale;
-// let gender = "female";
+// let gender = "male";
 
 // if (gender === "male"){
 //   isMale = true;
