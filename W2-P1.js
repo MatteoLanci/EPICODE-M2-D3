@@ -57,14 +57,16 @@
 */
 
 //* RISPOSTA ESERCIZIO 5
-// let totalShoppingCart = 55;
+// let totalShoppingCart = 50;
+// let shippingCost = 10;
+// let finalTotal;
 
-// if (totalShoppingCart < 50) {
-//   totalShoppingCart += 10;
+// if (totalShoppingCart <= 50) {
+//   finalTotal = totalShoppingCart + shippingCost;
 // } else {
-//   totalShoppingCart -= 0;
+//   finalTotal = totalShoppingCart;
 // }
-// console.log ("Your total amount is " + totalShoppingCart + ",00$ !");
+// console.log ('You have to pay ' + finalTotal + ',00$');
 
 /* //?ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
