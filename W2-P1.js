@@ -42,9 +42,9 @@
 */
 
 //* RISPOSTA ESERCIZIO 4
-// let num1 = 4, num2 = 8;
+// let num1 = 16, num2 = 8;
 
-// if (num2 === 8||num1 + num2 === 8) {
+// if (num2 === 8 || num1 === 8 || num1 + num2 === 8 || num1-num2 === 8 || num2-num1===8) {
 //   console.log ("one of two conditions is true");
 // } else {
 //   console.log ("none of two conditions is true");
