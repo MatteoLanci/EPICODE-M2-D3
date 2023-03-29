@@ -137,12 +137,19 @@
 */
 
 //* RISPOSTA ESERCIZIO 8
+//! MATTEO - non avendo capito bene cosa chiede l'esercizio, utilizzo 'typeof' per determinare che tipo di variabile si tratta; utilizzo anche 'Number.isInteger' per determinare se il valore della variabile è o meno un numero intero con un output booleano (true || false) essendo l'unico metodo che mi è venuto in mente per verificare se un numero è intero oppure no.
+
 // let num1 = 78;
 // let num2 = '78';
 // let num3 = 78.5;
 
+// Number.isInteger(num1); console.log(Number.isInteger(num1)); //output: true;
+// Number.isInteger(num2); console.log(Number.isInteger(num2)); //output: false;
+// Number.isInteger(num3); console.log(Number.isInteger(num3)); //output: false;
+
 // console.log(typeof num1); //output: number;
 // console.log(typeof num2); //output: string;
+// console.log(typeof num3); //output: number;
 
 /* //?ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
