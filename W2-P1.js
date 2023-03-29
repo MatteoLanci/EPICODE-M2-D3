@@ -74,20 +74,20 @@
 */
 
 //* RISPOSTA ESERCIZIO 6
-// let totalShoppingCart = 55;
+// let totalShoppingCart = 60;
+// let shippingCost = 10;
+// let finalTotal;
 // let discountBlackFriday = 0.8;
 // let blackFridayAlert = " Hey it's Black Friday! A 20% coupon has been applied to your shopping cart!"
 // let noChargesAlert = " Your shipping charges have been cancelled since your order is greater than 50,00$"
 
-// if (totalShoppingCart < 50) {
-//   partialAmount = totalShoppingCart += 10;
-//   totalAmount = (partialAmount * discountBlackFriday).toFixed(0);
-//   console.log ("Your total is " + totalAmount + ",00$." + blackFridayAlert);
+// if (totalShoppingCart <= 50) {
+//   finalTotal = ((totalShoppingCart * discountBlackFriday) + shippingCost).toFixed(0);
+//   console.log ("Your total is " + finalTotal + ",00$." + blackFridayAlert);
 
 // } else {
-//   partialAmount = totalShoppingCart -= 10;
-//   totalAmount = (partialAmount * discountBlackFriday).toFixed(0);
-//   console.log ("Your total is " + totalAmount + ",00$." + blackFridayAlert + noChargesAlert);
+//   finalTotal = (totalShoppingCart * discountBlackFriday).toFixed(0);
+//   console.log ("Your total is " + finalTotal + ",00$." + blackFridayAlert + noChargesAlert);
 // }
 
 /* //?ESERCIZIO 7
