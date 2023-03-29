@@ -7,9 +7,9 @@
 // let num2 = 10;
 
 // if (num1 > num2) {
-//   console.log("5 non è il numero intero più grande");
+//   console.log(num1 + ' è il numero intero più grande');
 // } else {
-//   console.log("10 è il numero intero più grande tra 5 e 10");
+//   console.log(num2 + ' è il numero intero più grande');
 // }
 
 /* //?ESERCIZIO 2
@@ -137,6 +137,7 @@
 //* RISPOSTA ESERCIZIO 8
 // let num1 = 78;
 // let num2 = '78';
+// let num3 = 78.5;
 
 // console.log(typeof num1); //output: number;
 // console.log(typeof num2); //output: string;
@@ -271,7 +272,7 @@
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3, stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
 
-//* RISPOSTA ESERCIZIO 16
+//* RISPOSTA ESERCIZIO 17
 // let n = 0;
 
 // for (n = 0; n < 101; n++) {
@@ -293,7 +294,7 @@
 */
 
 //* RISPOSTA ESERCIZIO 18
-// let day = 2; //output = "Tuesday"
+// let day = 5; //output = "Tuesday"
 
 // switch (day) {
 //   case 1 :
